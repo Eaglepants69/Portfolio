@@ -92,4 +92,9 @@ a {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    height: 300px;
+}
+#comment{
+    width: 791px;
+    height: 100px;
 }
