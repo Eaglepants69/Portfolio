@@ -1,0 +1,95 @@
+body{
+    font-family: Verdana;
+}
+
+
+.ulboven {
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 39px;
+
+}
+
+li {
+    display: inline;
+    font-family: Verdana;
+    text-decoration: none;
+}
+a {
+	text-decoration: none;
+	color: black;
+
+}
+.button{
+    color: black;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: left;
+    background-color: #fcf7f8
+
+ }
+ .button:hover{
+ 	background-color: #f2edee;
+ }
+ .button:active{
+ 	background-color: #c1bfc0;
+ }
+ #title{
+ 	display: flex;
+ 	justify-content: center;
+ 	
+ }
+ .CV_table{
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42%;
+    height: 900px;
+
+
+ }
+.Home{
+    background-color: white;
+    width: 60%;
+    height: 1200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.td_hf{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    text-align: left;
+}
+.td{
+    padding-left: 10px;
+}
+.td_hfCenD{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.td_CenD{
+    font-size: 18px;
+    padding-left: 10px;
+}
+.contact{
+    background-color: white;
+    width: 42%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
