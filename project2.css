@@ -1,5 +1,6 @@
 body{
     font-family: Verdana;
+/*het letter type van de gehele portfolio*/
 }
 
 
@@ -9,13 +10,14 @@ body{
     justify-content: center;
     align-items: center;
     margin-right: 39px;
-
+/*de class van de ul die de nav bar is*/
 }
 
 li {
     display: inline;
     font-family: Verdana;
     text-decoration: none;
+/*de style van de li*/
 }
 a {
 	text-decoration: none;
@@ -31,18 +33,20 @@ a {
     font-size: 16px;
     float: left;
     background-color: #fcf7f8
-
+/*de button normaal van de nav bar*/
  }
  .button:hover{
  	background-color: #f2edee;
+/*de kleur van de nav button als je er over heen gaat*/
  }
  .button:active{
  	background-color: #c1bfc0;
+/*de kleur van de nav button als die actief is*/
  }
- #title{
+ .title{
  	display: flex;
  	justify-content: center;
- 	
+ /*de class voor de titel*/
  }
  .CV_table{
     background-color: white;
@@ -52,8 +56,7 @@ a {
     margin-right: auto;
     width: 42%;
     height: 900px;
-
-
+/*de table voor het CV*/
  }
 .Home{
     background-color: white;
@@ -62,6 +65,7 @@ a {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+/*de home class voor de table van de home pagina*/
 }
 .td_hf{
     font-size: 20px;
@@ -70,9 +74,11 @@ a {
     padding-bottom: 15px;
     padding-left: 10px;
     text-align: left;
+/*hf td class voor de CV pagina*/
 }
 .td{
     padding-left: 10px;
+/*td class voor de CV pagina*/
 }
 .td_hfCenD{
     font-size: 30px;
@@ -80,11 +86,12 @@ a {
     padding-left: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
-
+/*hf td voor de certificaten en diploma's pagina*/
 }
 .td_CenD{
     font-size: 18px;
     padding-left: 10px;
+/*td class voor de certificaten en diploma's pagina*/
 }
 .contact{
     background-color: white;
@@ -93,33 +100,45 @@ a {
     margin-left: auto;
     margin-right: auto;
     height: 300px;
-}
 /* De class voor de contact table*/
+}
 #comment{
     width: 791px;
     height: 100px;
-}
 /*id voor de comment sectie in de contact pagina*/
+}
 #homeCV{
     height: 380px;
     width: 300px;
     border: 1px solid black;
     background-color: white;
-}
 /*table voor de CV preview in de home pagina*/
+}
 #homeCenD{
     margin-left: 800px;
     height: 380px;
     width: 300px;
     background-color: white;
-
-
+/*id voor de certificaten en diploma's snelle toegang op de home pagina*/
 }
 #table_preview{
     height: 380px;
     width: 300px;
     border: 1px solid black;
     background-color: white;
+/*id voor de preview links van de CV en certificaten en diploma's pagina*/
 }
-
+.projectDIV{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+/*class voor de table voor de projecten pagina*/
+}
+.T4U_table{
+    width: 55%;
+    border:1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
 
