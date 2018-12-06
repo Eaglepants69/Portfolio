@@ -94,7 +94,32 @@ a {
     margin-right: auto;
     height: 300px;
 }
+/* De class voor de contact table*/
 #comment{
     width: 791px;
     height: 100px;
 }
+/*id voor de comment sectie in de contact pagina*/
+#homeCV{
+    height: 380px;
+    width: 300px;
+    border: 1px solid black;
+    background-color: white;
+}
+/*table voor de CV preview in de home pagina*/
+#homeCenD{
+    margin-left: 800px;
+    height: 380px;
+    width: 300px;
+    background-color: white;
+
+
+}
+#table_preview{
+    height: 380px;
+    width: 300px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+
